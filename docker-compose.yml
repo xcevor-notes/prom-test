@@ -3,7 +3,7 @@ services:
   cadvisor:
     image: google/cadvisor:latest
     ports:
-      - "8080:8080"
+      - "8888:8080"
     volumes:
       - /:/rootfs:ro
       - /var/run:/var/run:rw
